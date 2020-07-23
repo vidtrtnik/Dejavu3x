@@ -1,0 +1,56 @@
+---
+---
+
+@import 'jekyll-theme-cayman';
+
+.page-header {
+    color: #fff;
+    text-align: center;
+    background-color: #159957;
+    background-image: url("./sitebckg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1px 1px #000000c0;
+}
+
+.main-content {
+    max-width: 100rem;
+    padding: 1rem 1rem;
+    margin: 0 auto;
+    font-size: 1.0rem;
+}
+
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+    font-weight: bold;
+    color: #159957;
+    text-shadow: 1px 1px #000000c0;
+}
+
+.project-tagline {
+    margin-bottom: 2rem;
+    font-weight: normal;
+    font-size: 1.33rem;
+    opacity: 0.9;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 1.33rem;
+    color: rgba(255,255,255,0.95);
+    background-color: rgba(255,255,255,0.1);
+    border-color: rgba(255,255,255,0.95);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 0.3rem;
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+}
+
+body {
+    color: #444d51;
+    background-color: #f2fde7;
+}
+
+.main-content table th, .main-content table td {
+    padding: 0rem 0.2rem;
+    border: 1px solid #fff0;
+}

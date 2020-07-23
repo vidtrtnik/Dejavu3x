@@ -1,0 +1,2 @@
+dejavu3x.apk - Normal build
+dejavu3x_debug.apk - Development/Debug build
